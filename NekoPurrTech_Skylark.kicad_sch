@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0bcb4a44-4fa7-4976-a48b-273b8974ffc7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 16.51)
+		(size 53.594 46.482)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "186601bf-2dfc-4521-94a5-8fa5d486dfb1")
+		(property "Sheetname" "MCU_Core"
+			(at 16.51 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Core.kicad_sch"
+			(at 16.51 63.5766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.898 16.51)
+		(size 57.912 46.482)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8d9fdb6-291f-4db0-9e6d-50a7f9b48758")
+		(property "Sheetname" "Sensors"
+			(at 72.898 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 72.898 63.5766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
