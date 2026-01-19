@@ -48,6 +48,90 @@
 		)
 	)
 	(sheet
+		(at 133.858 16.51)
+		(size 54.864 46.482)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cb43c0a-747a-47ba-9a71-a2b1eea6abcf")
+		(property "Sheetname" "Power"
+			(at 133.858 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 133.858 63.5766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 192.278 16.51)
+		(size 54.864 46.482)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37734398-81c2-493a-a1e9-023f63f298b3")
+		(property "Sheetname" "Connectors"
+			(at 192.278 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 192.278 63.5766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 72.898 16.51)
 		(size 57.912 46.482)
 		(exclude_from_sim no)

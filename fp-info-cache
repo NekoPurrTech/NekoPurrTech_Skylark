@@ -1,4 +1,4 @@
-26941663222502539
+26959423044407507
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70580,6 +70580,41 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+B3U-1000P
+B3U-1000P(M)
+Switch
+0
+2
+2
+Library
+CSTCE12M0G55-R0
+CSTCE12M0G55-R0
+Resistor
+0
+3
+3
+Library
+IIM42352
+14 Lead LGA (2.5x3x0.91)_1
+Integrated Circuit
+0
+14
+14
+Library
+LQFP-64_10x10mm_P0.5mm
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+64
+64
+Library
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -97552,6 +97587,13 @@ IDC-TH_10P-P2.54_C5665
 10
 10
 SamacSys_Parts
+IIM42352
+14 Lead LGA (2.5x3x0.91)_1
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
 IMU_Heater
 
 
@@ -97719,6 +97761,13 @@ Crystal or Oscillator
 0
 4
 4
+SamacSys_Parts
+QFN-8_L3.0-W3.0-P0.65
+
+
+0
+8
+8
 SamacSys_Parts
 QFN-128_L12.3-W12.3-P0.35-TL-EP9.1
 
@@ -97916,6 +97965,13 @@ Integrated Circuit
 9
 9
 SamacSys_Parts
+SON127P600X500X80-9N-D
+WSON-8 6x5-mm
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
 SOP65P640X120-20N
 PW0020A
 Integrated Circuit
@@ -98098,6 +98154,13 @@ TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL
 20
 20
 SamacSys_Parts
+TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP-2
+
+
+0
+29
+29
+SamacSys_Parts
 TXS0108ERKSR
 RKS0020A_2025-1
 Integrated Circuit
@@ -98125,6 +98188,13 @@ VQFN-24_L4.0-W4.0-P0.50-BL-EP2.5
 0
 25
 25
+SamacSys_Parts
+WLGA-8_L2.5-W2.0-P0.65-TR_DPS422
+
+
+0
+8
+8
 SamacSys_Parts
 WS2812
 WS2812

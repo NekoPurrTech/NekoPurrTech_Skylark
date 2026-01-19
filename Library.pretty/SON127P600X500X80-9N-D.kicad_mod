@@ -1,0 +1,325 @@
+(footprint "SON127P600X500X80-9N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WSON-8 6x5-mm")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "bb5f1b4d-d707-494b-825f-4c519ed551bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "W25Q256JWPIQ"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a4c68f6c-e460-4577-be24-c6bc60dda877")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q256JWPIQ&type=datasheet"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90fc2f28-fb84-4bdc-8ced-c2e8dce700cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "256M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70602c0a-2a50-46b0-ba31-a74e956c368e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38a50571-664b-4494-b8c6-80befbc80e3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "915cab36-d22f-4d40-be19-7595d28dc6df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "W25Q256JWPIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b66914c4-ca7b-452f-8a63-02eb84ade3da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "454-W25Q256JWPIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ec7b4a4-99a5-405f-bd27-fa7bd6da5947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q256JWPIQ?qs=qSfuJ%252Bfl%2Fd6m1vUlOFgu1A%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50de3e06-53b9-4f3c-89db-419ef3f7ce5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "W25Q256JWPIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34f340b8-15da-4608-8401-e86e824bb7bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/w25q256jwpiq/winbond-electronics?utm_currency=USD&region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "409b23cd-16dc-43aa-8242-86339df9d3fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.375 -2.63)
+		(end -3.375 -2.505)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "443cbb81-0829-4f38-bcbf-dec7623bb603")
+	)
+	(fp_line
+		(start -3.625 -2.8)
+		(end 3.625 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac5fa47f-05da-47c9-90f4-3c478959c095")
+	)
+	(fp_line
+		(start -3.625 2.8)
+		(end -3.625 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dc1de8f-92d9-4d82-b3a0-9cbf0460a681")
+	)
+	(fp_line
+		(start 3.625 -2.8)
+		(end 3.625 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0e59652-5ce4-4cd2-a7ee-c8475b38e358")
+	)
+	(fp_line
+		(start 3.625 2.8)
+		(end -3.625 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f727ff2-e1dc-4c5c-8e62-2a4ebd834db8")
+	)
+	(fp_line
+		(start -3 -2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d10db32b-323b-4eee-9f88-3296480f02f1")
+	)
+	(fp_line
+		(start -3 -1)
+		(end -1.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9af957a-410b-48b2-9f61-4239e940f4a6")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd706d8b-83e0-4eb2-b37e-723844a1a9b7")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3fe782af-55f9-4d1f-b65e-cb240713b634")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "819adfbd-af87-4dbb-b02d-168719a61962")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8cb3c050-e074-4469-974b-49efba1cebc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.85 -1.905 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "954ac5b2-c7aa-4d06-a1d6-a0d86a2849f9")
+	)
+	(pad "2" smd rect
+		(at -2.85 -0.635 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b180e492-19cd-4fd0-9d0b-8a0985def0fc")
+	)
+	(pad "3" smd rect
+		(at -2.85 0.635 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "580c90a6-0794-46c0-8718-9b0b6eebb90a")
+	)
+	(pad "4" smd rect
+		(at -2.85 1.905 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d226992-004a-456d-a1b6-42889b0cd075")
+	)
+	(pad "5" smd rect
+		(at 2.85 1.905 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d23a2f1e-c30c-4490-b8d1-ba28dc6e7d02")
+	)
+	(pad "6" smd rect
+		(at 2.85 0.635 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23bcd7da-d2b9-4ee8-bc2e-5fba2d2db9ca")
+	)
+	(pad "7" smd rect
+		(at 2.85 -0.635 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa221da7-e4a7-406c-93f1-658a1948a173")
+	)
+	(pad "8" smd rect
+		(at 2.85 -1.905 90)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4022556b-0787-44e3-a3c2-7e4ecab64879")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 3.1 4.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe76fd06-f6bf-418a-a7fd-7e4d49f96376")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\15216\\Documents\\KiCad\\7.0\\Library\\SamacSys_Parts.3dshapes\\W25Q256JWPIQ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
