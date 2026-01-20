@@ -2403,7 +2403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dfd09b1-eac6-423f-a4f4-634375a503bd")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR083"
 			(at 113.03 22.86 0)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 		(instances
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR085")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2537,7 +2537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ded4ccd-649f-417e-9dd1-3f361b4d0496")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR085"
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -2587,7 +2587,7 @@
 		(instances
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR083")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e07b62f-60a6-4b6d-b325-73bd5909d1ae")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 45.72 30.8355 0)
 			(effects
 				(font
@@ -2899,7 +2899,7 @@
 		(instances
 			(project ""
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2915,7 +2915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a71336-10ba-4d1d-ab48-908f74afcc31")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 83.82 28.2955 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 		(instances
 			(project ""
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
