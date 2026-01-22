@@ -2819,10 +2819,6 @@
 		(uuid "a21b1bd3-376d-47e3-9b23-2aca26db98e4")
 	)
 	(no_connect
-		(at 41.91 101.6)
-		(uuid "ce2135b9-fd4f-4be6-b475-f2cd129e0ae8")
-	)
-	(no_connect
 		(at 41.91 93.98)
 		(uuid "e58f26c3-193a-4ad3-8900-c0aa0da5bec4")
 	)
@@ -3758,6 +3754,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 101.6) (xy 41.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac70c76-c650-4568-a81e-ba33fb06699e")
+	)
+	(wire
+		(pts
 			(xy 175.26 102.87) (xy 177.8 102.87)
 		)
 		(stroke
@@ -4214,6 +4220,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VTX_PW_SW"
+		(shape input)
+		(at 30.48 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f51f18a-206a-43e2-aacf-7bde4bf783f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.7581 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

@@ -1113,7 +1113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SON-8_L2.0-W2.0_CSD17313Q2T"
+		(property "Footprint" "kicad_lceda:SON-8_L2.0-W2.0_CSD17313Q2T"
 			(at 0 4.318 0)
 			(effects
 				(font

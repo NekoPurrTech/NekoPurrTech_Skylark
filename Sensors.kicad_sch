@@ -4089,6 +4089,28 @@
 			)
 		)
 	)
+	(global_label "IMU_CLKIN"
+		(shape input)
+		(at 118.11 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3471da1c-1c2e-407a-958b-b814255eff84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.0457 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI2_SCK"
 		(shape input)
 		(at 257.81 34.29 0)
@@ -4146,28 +4168,6 @@
 		(uuid "7e754618-9800-4853-ba8a-a6c97c74ddbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.0457 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMU_CLKIN"
-		(shape input)
-		(at 118.11 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4e54ed2-0d2d-4e29-9840-35356ef70738")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.0457 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
