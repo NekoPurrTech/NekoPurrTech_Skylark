@@ -2815,8 +2815,12 @@
 		(uuid "188fe3af-b19f-494d-94c6-a394e9b98e4f")
 	)
 	(no_connect
-		(at 82.55 63.5)
-		(uuid "a21b1bd3-376d-47e3-9b23-2aca26db98e4")
+		(at 82.55 60.96)
+		(uuid "352c3646-ab9c-4cd1-8734-4dc620a44fdb")
+	)
+	(no_connect
+		(at 82.55 119.38)
+		(uuid "872d7d91-51bc-442f-ae34-cef629b251e5")
 	)
 	(no_connect
 		(at 41.91 93.98)
@@ -3371,16 +3375,6 @@
 			(type default)
 		)
 		(uuid "64a9169b-49a0-4a0d-aecb-7d1ccc1881c9")
-	)
-	(wire
-		(pts
-			(xy 82.55 60.96) (xy 91.44 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b79777e-26d9-4cef-81e2-a3174092e332")
 	)
 	(wire
 		(pts
@@ -4246,28 +4240,6 @@
 			)
 		)
 	)
-	(global_label "LED_STRIP"
-		(shape input)
-		(at 30.48 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10ef56de-44d5-4578-9bb9-a251b3889e6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5443 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI1_SCK"
 		(shape input)
 		(at 91.44 53.34 0)
@@ -4422,28 +4394,6 @@
 			)
 		)
 	)
-	(global_label "BARO_SDA"
-		(shape input)
-		(at 91.44 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "358008bf-cf45-4017-ac23-df46eda8c28a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.3757 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI2_CS"
 		(shape input)
 		(at 91.44 114.3 0)
@@ -4488,6 +4438,28 @@
 			)
 		)
 	)
+	(global_label "SERVO1"
+		(shape input)
+		(at 30.48 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "414a9bc3-fff3-468b-bebf-994bd8453563")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.5443 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART4_TX"
 		(shape input)
 		(at 91.44 40.64 0)
@@ -4501,6 +4473,28 @@
 		(uuid "427413a3-d777-4cfe-ae16-3c6d9d75cfbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.3757 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SDA"
+		(shape input)
+		(at 91.44 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "542a1cd2-fe45-412e-ac60-f6bd5ed0c740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3757 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,6 +4570,28 @@
 			)
 		)
 	)
+	(global_label "SERVO2"
+		(shape input)
+		(at 30.48 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c810904-f3d9-4430-b531-3d40a8fb6723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.5443 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART2_RX"
 		(shape input)
 		(at 91.44 48.26 0)
@@ -4642,28 +4658,6 @@
 			)
 		)
 	)
-	(global_label "I2C3_SDA"
-		(shape input)
-		(at 30.48 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e9355fb-d220-430d-b22d-c2b051e36d17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5443 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 91.44 76.2 0)
@@ -4677,6 +4671,28 @@
 		(uuid "826576c3-0a27-48e2-819d-8867f683a5ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.7428 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 91.44 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89363fc3-aa58-4df6-83b4-cd04a0802d64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3757 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,28 +4790,6 @@
 			)
 		)
 	)
-	(global_label "BARO_SCL"
-		(shape input)
-		(at 91.44 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c120574-64cc-4527-87bb-f8736533358a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.3757 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI1_MISO"
 		(shape input)
 		(at 91.44 55.88 0)
@@ -4809,28 +4803,6 @@
 		(uuid "ac10ea94-b577-40fe-8a78-1db03fc76578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.2828 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C3_SCL"
-		(shape input)
-		(at 91.44 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad71f67b-2925-48ad-8f1c-1d4d2f86e40d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.3757 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,6 +5789,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 198.12 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "424b6d12-0f1f-4af9-a21f-b24d03b22998")
+		(property "Reference" "#PWR013"
+			(at 198.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_MCU"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03cedd74-25a6-4a30-be6b-58bb2361bd89")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/186601bf-2dfc-4521-94a5-8fa5d486dfb1"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:R")
 		(at 185.42 154.94 90)
 		(unit 1)
@@ -5949,6 +5987,72 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/186601bf-2dfc-4521-94a5-8fa5d486dfb1"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 175.26 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54b5facb-9a64-47d3-ad62-2f468ff33654")
+		(property "Reference" "#PWR046"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_MCU"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5d9c45f-0b10-4e89-b623-cd8b5dcfa320")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/186601bf-2dfc-4521-94a5-8fa5d486dfb1"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6362,72 +6466,6 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/186601bf-2dfc-4521-94a5-8fa5d486dfb1"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bdd832b-17ad-4a8f-9ec1-ee7e6e2ceb16")
-		(property "Reference" "#PWR095"
-			(at 198.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 198.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 198.12 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2c787d3-7511-4cde-a541-f8e2fd064e67")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/186601bf-2dfc-4521-94a5-8fa5d486dfb1"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7507,72 +7545,6 @@
 			(project ""
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/186601bf-2dfc-4521-94a5-8fa5d486dfb1"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 175.26 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e386fbf2-f988-4130-a593-0efc5a5dc00a")
-		(property "Reference" "#PWR013"
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fa33e0d-e8f1-4a4f-abef-144bd7fe38d8")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/186601bf-2dfc-4521-94a5-8fa5d486dfb1"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
