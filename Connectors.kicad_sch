@@ -7603,7 +7603,7 @@
 	)
 	(global_label "MOTOR1_OUT"
 		(shape input)
-		(at 107.95 124.46 180)
+		(at 107.95 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7613,7 +7613,7 @@
 		)
 		(uuid "2403dfc4-b8e2-4574-bedd-15d642d50b65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2281 124.46 0)
+			(at 95.2281 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7647,7 @@
 	)
 	(global_label "MOTOR2"
 		(shape input)
-		(at 107.95 129.54 180)
+		(at 107.95 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7657,7 +7657,7 @@
 		)
 		(uuid "270d9c9b-dfa2-4bab-b61d-e5af9c6ff990")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2281 129.54 0)
+			(at 95.2281 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7669,7 @@
 	)
 	(global_label "MOTOR2_OUT"
 		(shape input)
-		(at 107.95 132.08 180)
+		(at 107.95 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7679,7 +7679,7 @@
 		)
 		(uuid "3c444730-aff9-43ac-ae40-943b0b553d58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2281 132.08 0)
+			(at 95.2281 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +8109,7 @@
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
-		(at 264.16 132.08 0)
+		(at 264.16 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8119,7 +8119,7 @@
 		)
 		(uuid "b272583b-7ca7-4fe5-8abf-34c0b4d9f27a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0957 132.08 0)
+			(at 276.0957 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8329,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 264.16 129.54 0)
+		(at 264.16 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8339,7 +8339,7 @@
 		)
 		(uuid "fa3de14b-95c5-4bd0-834e-07c414adec67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0957 129.54 0)
+			(at 276.0957 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8351,7 @@
 	)
 	(global_label "MOTOR1"
 		(shape input)
-		(at 107.95 121.92 180)
+		(at 107.95 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8361,7 +8361,7 @@
 		)
 		(uuid "fb1f306d-aad1-4042-a615-31a57fe8e660")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2281 121.92 0)
+			(at 95.2281 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,6 +8482,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8548,6 +8554,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8610,6 +8622,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8704,6 +8722,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8789,6 +8813,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8851,6 +8881,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8923,6 +8959,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8987,6 +9029,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9057,6 +9105,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9121,6 +9175,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9191,6 +9251,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9255,6 +9321,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9326,6 +9398,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9388,6 +9466,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9513,6 +9597,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9576,6 +9666,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9646,6 +9742,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9709,6 +9811,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9779,6 +9887,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9844,6 +9958,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9916,6 +10036,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9982,68 +10108,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 213.36 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e137607-b76a-487b-af3e-585db4bac5ad")
-		(property "Reference" "#PWR0112"
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT_IN"
-			(at 220.98 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 213.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "014d5f87-df00-4aa9-9908-ad5432865951")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR0112")
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10174,6 +10241,79 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 213.36 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62325e9d-2341-4023-aefd-67b026e00edb")
+		(property "Reference" "#PWR0112"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 217.17 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7737d6ad-f3b2-48c3-a602-1dec3ef5b4f4")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10251,6 +10391,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10317,6 +10463,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10379,6 +10531,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10449,6 +10607,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "H?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10511,6 +10675,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10639,6 +10809,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10702,6 +10878,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10770,6 +10952,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10835,6 +11023,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10914,6 +11108,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10976,6 +11176,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11058,6 +11264,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11120,6 +11332,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11187,6 +11405,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11281,6 +11505,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11344,6 +11574,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11412,6 +11648,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11474,6 +11716,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11543,6 +11791,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11631,6 +11885,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11698,6 +11958,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "H?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11762,6 +12028,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11834,6 +12106,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11901,6 +12179,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11963,6 +12247,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12035,6 +12325,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12102,6 +12398,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "H?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12166,6 +12468,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12237,6 +12545,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12304,6 +12618,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12367,6 +12687,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12439,6 +12765,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12501,6 +12833,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12570,6 +12908,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12632,6 +12976,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12703,6 +13053,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12765,6 +13121,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12836,6 +13198,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12899,6 +13267,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12969,6 +13343,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13033,6 +13413,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -13103,6 +13489,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13166,6 +13558,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13254,6 +13652,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13316,6 +13720,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13382,6 +13792,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13452,6 +13868,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13514,6 +13936,12 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13654,6 +14082,12 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13721,6 +14155,18 @@
 					(unit 1)
 				)
 			)
+			(project "Connectors"
+				(path "/27ce10de-0861-490c-909d-5261e806c368"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
