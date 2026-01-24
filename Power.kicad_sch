@@ -2303,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 40.64) (xy 160.02 40.64)
+			(xy 154.94 40.64) (xy 160.02 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3763,7 +3763,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 40.64) (xy 48.26 40.64)
+			(xy 41.91 40.64) (xy 48.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3901,7 +3901,7 @@
 		)
 		(uuid "fe96cc6a-6374-46f9-872f-3cb2b243415d")
 	)
-	(label "EN"
+	(label "EN2"
 		(at 205.74 25.4 0)
 		(effects
 			(font
@@ -3909,20 +3909,20 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0d6dd10d-9dc0-4987-9ff2-8a3a8915ba04")
+		(uuid "1c13df7b-cf10-448e-981a-a637ad155205")
 	)
-	(label "EN"
-		(at 93.98 25.4 0)
+	(label "EN2"
+		(at 154.94 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8b7a267a-ed18-4239-b63c-3dfcbcedfb62")
+		(uuid "7e85ce85-c129-46ef-a048-db116c6930ab")
 	)
-	(label "EN"
-		(at 45.72 40.64 0)
+	(label "EN1"
+		(at 41.91 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3931,15 +3931,15 @@
 		)
 		(uuid "921471c1-f5be-482f-9c64-13d1d92974d6")
 	)
-	(label "EN"
-		(at 157.48 40.64 0)
+	(label "EN1"
+		(at 93.98 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ea2e2829-9cad-4db1-a6e5-a5e598d128e0")
+		(uuid "fcb2f6e5-9316-41d4-bdb1-72e0e451e4c5")
 	)
 	(global_label "ADC_VBAT"
 		(shape input)
@@ -4375,73 +4375,6 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c4fc760-4456-4897-9f3e-81ab139980cb")
-		(property "Reference" "#PWR044"
-			(at 39.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_5V"
-			(at 31.75 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f846a0a5-7045-497f-b75e-d14a0d494239")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5000,8 +4933,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2dc5e61d-df34-488c-8274-b971e8bcb6fe")
-		(property "Reference" "#PWR0137"
+		(uuid "2d02a3f2-51e7-4929-872c-96f8d9a73bdc")
+		(property "Reference" "#PWR0139"
 			(at 39.37 111.76 0)
 			(effects
 				(font
@@ -5010,7 +4943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_5V"
+		(property "Value" "VCC_IN"
 			(at 31.75 111.7599 90)
 			(effects
 				(font
@@ -5047,12 +4980,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "515f3d22-9f8f-4ac0-9fe7-2715e2d27f78")
+			(uuid "39b90bea-f5c5-41c3-a501-82e8f981e20a")
 		)
 		(instances
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
-					(reference "#PWR0137")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -5257,73 +5190,6 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "383ab09c-1e00-484e-8e5c-724cc299e215")
-		(property "Reference" "#PWR0136"
-			(at 39.37 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_5V"
-			(at 31.75 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d0ef797-c2cd-499b-b93d-a1f1baf11a83")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
-					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -7086,7 +6952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_SENSOR"
+		(property "Value" "+3.3V_PREP"
 			(at 107.95 142.2399 90)
 			(effects
 				(font
@@ -7603,6 +7469,73 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 35.56 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "974c330c-154e-416b-a0b9-6146dc929bd0")
+		(property "Reference" "#PWR0136"
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IN"
+			(at 31.75 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6f95ff5-bac9-454a-91fe-8b8f4ebbf051")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -9087,6 +9020,73 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 35.56 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72e529b-66dc-4d7a-9e4d-fdf0260d566d")
+		(property "Reference" "#PWR044"
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IN"
+			(at 31.75 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37c5ee7e-854e-42ff-89a0-c83f28278cf3")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/2cb43c0a-747a-47ba-9a71-a2b1eea6abcf"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)

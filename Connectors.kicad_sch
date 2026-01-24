@@ -5224,399 +5224,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:CSD17313Q2"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CSD17313Q2"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:Texas_DQK"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/csd17313q2.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "5A Id, 30V Vds, NexFET N-Channel Power MOSFET, 24mOhm Ron, SON-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NexFET Power MOSFET N-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Texas*DQK*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CSD17313Q2_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CSD17313Q2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5976,12 +5583,6 @@
 		(uuid "06a7f576-3d4f-4870-82b6-4e24eff68277")
 	)
 	(junction
-		(at 204.47 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06fa722e-8f87-4155-bd05-6ad6b154dacf")
-	)
-	(junction
 		(at 74.93 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6010,12 +5611,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ee55be2-d7fa-4f6e-aac4-489a6e1c351a")
-	)
-	(junction
-		(at 217.17 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5399975e-7116-4587-972b-7aa8a87c69c6")
 	)
 	(junction
 		(at 130.81 111.76)
@@ -6103,6 +5698,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 35.56) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00788d1a-e2ab-4eb0-bc7f-dec362e47b66")
+	)
+	(wire
+		(pts
 			(xy 196.85 137.16) (xy 213.36 137.16)
 		)
 		(stroke
@@ -6153,16 +5758,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 77.47) (xy 217.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0686e0a1-065f-44eb-a857-97f13c244dcb")
-	)
-	(wire
-		(pts
 			(xy 130.81 109.22) (xy 130.81 111.76)
 		)
 		(stroke
@@ -6180,16 +5775,6 @@
 			(type default)
 		)
 		(uuid "0e4dd9b4-12cb-45e3-aa5a-b944ae524d6f")
-	)
-	(wire
-		(pts
-			(xy 200.66 72.39) (xy 204.47 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1005ac3b-64ff-495e-ad6d-13b13022c62d")
 	)
 	(wire
 		(pts
@@ -6313,16 +5898,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 72.39) (xy 193.04 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29be3c76-ad33-42a0-a3da-c5d0693e3743")
-	)
-	(wire
-		(pts
 			(xy 107.95 121.92) (xy 113.03 121.92)
 		)
 		(stroke
@@ -6440,6 +6015,16 @@
 			(type default)
 		)
 		(uuid "3b07f89a-5423-40a9-9b74-a8462e8e9ee5")
+	)
+	(wire
+		(pts
+			(xy 213.36 134.62) (xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc32f27-3708-4709-91a5-f0bd57fe4d03")
 	)
 	(wire
 		(pts
@@ -6583,16 +6168,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 80.01) (xy 207.01 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f6e15bb-810a-4a80-b468-fddcbbce36bf")
-	)
-	(wire
-		(pts
 			(xy 247.65 129.54) (xy 264.16 129.54)
 		)
 		(stroke
@@ -6683,16 +6258,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 72.39) (xy 204.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be01808-7bdb-4427-bbe9-288c5bea1862")
-	)
-	(wire
-		(pts
 			(xy 191.77 22.86) (xy 198.12 22.86)
 		)
 		(stroke
@@ -6710,6 +6275,16 @@
 			(type default)
 		)
 		(uuid "8162017f-083e-4adc-a970-e2a6838bbc18")
+	)
+	(wire
+		(pts
+			(xy 213.36 132.08) (xy 196.85 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81707d79-2dae-45d9-ae42-7f63bbae8bf9")
 	)
 	(wire
 		(pts
@@ -6733,16 +6308,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 80.01) (xy 217.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8638c164-2d83-49a5-8005-0fdb177b635c")
-	)
-	(wire
-		(pts
 			(xy 149.86 30.48) (xy 156.21 30.48)
 		)
 		(stroke
@@ -6750,16 +6315,6 @@
 			(type default)
 		)
 		(uuid "87a88298-9f95-44ab-9b75-f37962b9d60b")
-	)
-	(wire
-		(pts
-			(xy 214.63 80.01) (xy 217.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87ba217c-78f5-44eb-b0d4-a132852cee91")
 	)
 	(wire
 		(pts
@@ -6860,16 +6415,6 @@
 			(type default)
 		)
 		(uuid "9f92dc6a-19e7-42a1-99ab-b408961007eb")
-	)
-	(wire
-		(pts
-			(xy 217.17 63.5) (xy 217.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0cf4b3a-4ae4-4d71-b154-690cdf035072")
 	)
 	(wire
 		(pts
@@ -7451,16 +6996,6 @@
 		)
 		(uuid "fe479a0c-5c84-4c91-be35-98e87df770a4")
 	)
-	(wire
-		(pts
-			(xy 204.47 72.39) (xy 209.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff34ab36-814e-480f-a510-fe19f1dabbf5")
-	)
 	(label "SBUS_IN"
 		(at 57.15 38.1 0)
 		(effects
@@ -7509,6 +7044,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART2_TX"
+		(shape input)
+		(at 213.36 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09a0e63d-2c4d-418c-9ad2-c24e90cc4104")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.0819 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7579,28 +7136,6 @@
 			)
 		)
 	)
-	(global_label "VTX_PW_SW"
-		(shape input)
-		(at 186.69 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "231c7866-c3d3-468b-af7d-09b1ed2e0e03")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9681 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR1_OUT"
 		(shape input)
 		(at 107.95 132.08 180)
@@ -7663,6 +7198,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART2_RX"
+		(shape input)
+		(at 213.36 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35a5329f-3534-47fa-be19-539046e1b3f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.0819 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7993,6 +7550,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VRX"
+		(shape input)
+		(at 191.77 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a25b4071-e4b8-4263-8170-97bb06579272")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.5191 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8492,6 +8071,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 203.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03fda228-47dc-4f7c-a6fc-6c6efc0f1bd0")
+		(property "Reference" "#PWR0127"
+			(at 203.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e806409-f7cb-46ac-b3aa-5ed7d0c295e8")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 81.28 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8628,103 +8273,6 @@
 			(project "Connectors"
 				(path "/27ce10de-0861-490c-909d-5261e806c368"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:CSD17313Q2")
-		(at 214.63 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07ef1cf5-7e11-472c-8972-c4d2a8fdd153")
-		(property "Reference" "Q1"
-			(at 220.98 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD17313Q2"
-			(at 220.98 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:Texas_DQK"
-			(at 219.71 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/csd17313q2.pdf"
-			(at 219.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "5A Id, 30V Vds, NexFET N-Channel Power MOSFET, 24mOhm Ron, SON-6"
-			(at 214.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "432663dd-705a-47b9-9b81-5580e3e1b3cb")
-		)
-		(pin "3"
-			(uuid "edaea5a4-85e1-4e17-8143-9e2f07a446dd")
-		)
-		(pin "2"
-			(uuid "f4847e73-3e7b-457b-bdd9-d5df90c1f6ad")
-		)
-		(pin "5"
-			(uuid "08423a93-7a9a-480f-b5ae-0707a357ef04")
-		)
-		(pin "4"
-			(uuid "24052670-f93d-4955-9332-1bed9ae86237")
-		)
-		(pin "7"
-			(uuid "0cc50606-fc23-45f9-8904-459da19702ed")
-		)
-		(pin "8"
-			(uuid "d37bf5a6-6bba-4b78-8a89-165348b045a0")
-		)
-		(pin "6"
-			(uuid "d81b94ca-9d44-4c49-84b6-28ed9d9225c8")
-		)
-		(instances
-			(project ""
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -8893,154 +8441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
-		(at 196.85 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "114d72f2-6f58-4377-afd8-361d4f525fb9")
-		(property "Reference" "R29"
-			(at 198.12 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22R"
-			(at 198.628 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 196.85 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c71295f2-09b9-4a4f-a3b5-338fcac8f940")
-		)
-		(pin "1"
-			(uuid "3ffd2c50-8dc8-458c-a76b-9e33ff2c87b6")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 264.16 137.16 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12c2a995-97c2-4510-903f-9eba55865e6a")
-		(property "Reference" "#PWR0127"
-			(at 260.35 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VTX_VCC"
-			(at 267.97 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 264.16 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f75cae2a-a788-4e53-a70e-896287231e6a")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 83.82 72.39 270)
 		(unit 1)
@@ -9188,6 +8588,72 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 128.27 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "242c6d63-10f2-4f43-9b00-6401d6e61071")
+		(property "Reference" "#PWR097"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IN"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81f46f12-9d82-4fee-80f8-6f46944db68d")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 213.36 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9321,80 +8787,6 @@
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 109.22 22.86 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dfd09b1-eac6-423f-a4f4-634375a503bd")
-		(property "Reference" "#PWR083"
-			(at 113.03 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_5V"
-			(at 105.41 22.8601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 109.22 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee14f464-3bbc-479e-9fb2-7e16ee563530")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -9752,16 +9144,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 217.17 63.5 0)
+		(at 191.77 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a15238d-00f2-4b40-8e5d-8682d0d7b864")
-		(property "Reference" "#PWR0106"
-			(at 217.17 67.31 0)
+		(uuid "4f092f4d-7649-4bdd-b446-1bcc7bba11c5")
+		(property "Reference" "#PWR086"
+			(at 195.58 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,8 +9161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_10V"
-			(at 217.17 58.42 0)
+		(property "Value" "VCC_IN"
+			(at 190.5 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 63.5 0)
+			(at 191.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,7 +9179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 63.5 0)
+			(at 191.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,7 +9188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 217.17 63.5 0)
+			(at 191.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,18 +9197,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e93c124-202e-4f1f-9ba6-828e855f3d3b")
+			(uuid "ceb001e8-d387-4076-809a-a356d8231116")
 		)
 		(instances
 			(project "NekoPurrTech_Skylark"
 				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -10687,6 +10073,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 22.86 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b63813-aae1-4a75-ad9d-de53e67b9e7c")
+		(property "Reference" "#PWR0106"
+			(at 73.66 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_10V"
+			(at 66.04 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a564d2c-246e-4ba4-ab27-f1ebb1210e31")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x21_Pin")
 		(at 191.77 129.54 0)
 		(unit 1)
@@ -10955,6 +10408,74 @@
 			(project "Connectors"
 				(path "/27ce10de-0861-490c-909d-5261e806c368"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 25.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b7e9860-bdcd-4248-9979-768bd4a93ba3")
+		(property "Reference" "#PWR0107"
+			(at 185.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 25.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420b1ab7-4789-4d49-a225-cdb131de5d22")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11514,78 +11035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 217.17 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f47e351-03c6-4040-a1c6-ed46e03775fc")
-		(property "Reference" "#PWR0107"
-			(at 217.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VTX_VCC"
-			(at 217.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32b5edba-243a-4bf5-a3c1-2bf1810af791")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 264.16 147.32 90)
 		(unit 1)
@@ -11967,79 +11416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 69.85 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab54bfda-c05f-4129-81ee-4de1055d8fc6")
-		(property "Reference" "#PWR079"
-			(at 73.66 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VTX_VCC"
-			(at 66.04 22.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 69.85 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b71593a7-4af7-430a-b416-4a6c8a9f0730")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:R")
 		(at 55.88 80.01 90)
 		(unit 1)
@@ -12188,6 +11564,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 149.86 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1732c50-b25d-4c5c-809e-d5952789c81d")
+		(property "Reference" "#PWR083"
+			(at 153.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IN"
+			(at 148.59 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87538369-3e84-4334-87e6-8b01beb1e2c5")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 139.7 90)
 		(unit 1)
@@ -12253,81 +11695,6 @@
 			(project "Connectors"
 				(path "/27ce10de-0861-490c-909d-5261e806c368"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:R")
-		(at 210.82 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9a9dbaf-802d-4bcc-87fc-474498595901")
-		(property "Reference" "R30"
-			(at 212.09 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 212.852 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 210.82 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40881196-197d-4bdd-91e8-c4aef3302efd")
-		)
-		(pin "1"
-			(uuid "fad71e8d-d363-4a62-893b-727b82f236c2")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12401,79 +11768,6 @@
 			(project "Connectors"
 				(path "/27ce10de-0861-490c-909d-5261e806c368"
 					(reference "H?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 128.27 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beef734a-3a03-47bc-aeac-c67e6e726a7e")
-		(property "Reference" "#PWR097"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_5V"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 128.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "731d1023-fe93-4316-967c-4efa900733a1")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12621,6 +11915,73 @@
 			(project "Connectors"
 				(path "/27ce10de-0861-490c-909d-5261e806c368"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 264.16 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2302751-6715-44f5-94fb-648ef30f7b73")
+		(property "Reference" "#PWR0138"
+			(at 260.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_PREP"
+			(at 267.97 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3db6b4c-7fe1-429c-9d0d-583fff34346a")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -12988,151 +12349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 149.86 22.86 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc08bd96-63c0-400d-85d8-5677b889811e")
-		(property "Reference" "#PWR086"
-			(at 153.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_5V"
-			(at 146.05 22.8601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 149.86 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "722547c6-1bd2-4ca4-8032-929549b796cd")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 264.16 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "def91765-f888-4b54-a544-8128215f7aa9")
-		(property "Reference" "#PWR0125"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V_MCU"
-			(at 272.288 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 264.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfb6610e-be85-4710-80d3-02d8fa89c400")
-		)
-		(instances
-			(project "NekoPurrTech_Skylark"
-				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-			(project "Connectors"
-				(path "/27ce10de-0861-490c-909d-5261e806c368"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 149.86 25.4 270)
 		(mirror x)
@@ -13273,6 +12489,72 @@
 			(project "Connectors"
 				(path "/27ce10de-0861-490c-909d-5261e806c368"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 109.22 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e361c89a-0442-4500-bb45-9eb90159e512")
+		(property "Reference" "#PWR0137"
+			(at 113.03 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IN"
+			(at 107.95 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 109.22 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8ef104b-2883-440a-b251-aaaa3ad86ad8")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -14085,6 +13367,72 @@
 			(project "Connectors"
 				(path "/27ce10de-0861-490c-909d-5261e806c368"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 264.16 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb86f9c5-dd45-4f5b-b3c4-bfbf46c09669")
+		(property "Reference" "#PWR079"
+			(at 260.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_10V"
+			(at 267.97 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 264.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d246ff88-4357-44c6-af68-a471e8bb9b45")
+		)
+		(instances
+			(project "NekoPurrTech_Skylark"
+				(path "/0bcb4a44-4fa7-4976-a48b-273b8974ffc7/37734398-81c2-493a-a1e9-023f63f298b3"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
